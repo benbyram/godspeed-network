@@ -43,10 +43,10 @@ export default function WaitlistPage() {
           {/* Details */}
           <div className="bg-gray-800 rounded-2xl p-8 mb-8 border-2" style={{ borderColor: '#e0b96f' }}>
             <p className="text-lg text-gray-300 mb-4">
-              We're so excited to have you join our community of innovative professionals! 
+              We&apos;re so excited to have you join our community of innovative professionals! 
             </p>
             <p className="text-lg text-gray-300 mb-4">
-              You'll be the first to know when we launch our coworking spaces across LA. 
+              You&apos;ll be the first to know when we launch our coworking spaces across LA. 
               Get ready for exclusive early access and special launch pricing! 💫
             </p>
             <p className="text-lg text-gray-300">
@@ -198,7 +198,7 @@ export default function WaitlistPage() {
 
               {/* Benefits */}
               <div className="mt-8 pt-8 border-t border-gray-600">
-                <h3 className="text-xl font-semibold text-gray-200 mb-4">What you'll get:</h3>
+                <h3 className="text-xl font-semibold text-gray-200 mb-4">What you&apos;ll get:</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-3">
                     <span className="text-2xl">🎯</span>

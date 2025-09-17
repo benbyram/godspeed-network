@@ -16,7 +16,7 @@ interface VenueMarkerProps {
   description: string;
 }
 
-function VenueMarker({ id, name, type, amenities, availability, description }: VenueMarkerProps) {
+function VenueMarker({ name, type, amenities, availability, description }: VenueMarkerProps) {
   const [isOpen, setIsOpen] = useState(false);
   const popupRef = useRef<HTMLDivElement>(null);
   
@@ -385,7 +385,7 @@ export default function Home() {
                 <span className="text-2xl">💵</span>
               </div>
               <h3 className="text-lg font-semibold text-gray-200 mb-2">Affordable</h3>
-              <p className="text-gray-300">Monthly membership that won't break the bank</p>
+              <p className="text-gray-300">Monthly membership that won&apos;t break the bank</p>
             </div>
             <div className="text-center">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
