@@ -32,7 +32,7 @@ export default function WaitlistPage() {
           
           {/* Main Message */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 font-serif" style={{ color: '#e0b96f' }}>
-            YOU'RE IN!!!!!!!!!
+            YOU&apos;RE IN!!!!!!!!!
           </h1>
           
           {/* Subtitle */}
