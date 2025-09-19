@@ -123,7 +123,7 @@ export default function Home() {
               <button className="px-4 py-2 text-white border border-gray-400 rounded hover:bg-gray-700 transition-colors">
                 Sign In
               </button>
-              <Link href="/waitlist" className="px-4 py-2 rounded text-black font-medium" style={{ backgroundColor: '#e0b96f' }}>
+              <Link href="/waitlist" className="px-4 py-2 rounded text-white font-medium" style={{ backgroundColor: '#8b5cf6' }}>
                 Join Waitlist
               </Link>
             </div>
@@ -166,7 +166,7 @@ export default function Home() {
               A coworking network for young professionals in LA. Work from church buildings, homes, and unique spaces across the city — all under one simple, affordable subscription.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/waitlist" className="px-8 py-4 rounded-lg text-lg font-semibold text-black font-medium" style={{ backgroundColor: '#e0b96f' }}>
+              <Link href="/waitlist" className="px-8 py-4 rounded-lg text-lg font-semibold text-white font-medium" style={{ backgroundColor: '#8b5cf6' }}>
                 Join Waitlist
               </Link>
               <button className="px-8 py-4 rounded-lg text-lg font-semibold text-gray-200 border border-gray-400 hover:bg-gray-700 transition-colors">
@@ -426,7 +426,7 @@ export default function Home() {
                 placeholder="Enter your email" 
                 className="flex-1 px-4 py-3 rounded-lg text-gray-900 placeholder-gray-500"
               />
-              <Link href="/waitlist" className="px-6 py-3 rounded-lg font-semibold text-white transition-colors" style={{ backgroundColor: '#1a3636' }}>
+              <Link href="/waitlist" className="px-6 py-3 rounded-lg font-semibold text-white transition-colors" style={{ backgroundColor: '#8b5cf6' }}>
                 Join Waitlist
               </Link>
             </div>

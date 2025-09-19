@@ -58,8 +58,8 @@ export default function WaitlistPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/"
-              className="px-8 py-4 rounded-lg text-lg font-semibold text-black font-medium transition-transform hover:scale-105"
-              style={{ backgroundColor: '#e0b96f' }}
+              className="px-8 py-4 rounded-lg text-lg font-semibold text-white font-medium transition-transform hover:scale-105"
+              style={{ backgroundColor: '#8b5cf6' }}
             >
               Back to Home
             </Link>
@@ -179,15 +179,15 @@ export default function WaitlistPage() {
                   className={`w-full py-4 rounded-lg text-xl font-semibold transition-all duration-300 ${
                     isLoading || !email
                       ? 'bg-gray-600 text-gray-400 cursor-not-allowed'
-                      : 'text-black hover:scale-105 hover:shadow-lg'
+                      : 'text-white hover:scale-105 hover:shadow-lg'
                   }`}
                   style={{ 
-                    backgroundColor: isLoading || !email ? '#4a5568' : '#e0b96f' 
+                    backgroundColor: isLoading || !email ? '#4a5568' : '#8b5cf6' 
                   }}
                 >
                   {isLoading ? (
                     <div className="flex items-center justify-center">
-                      <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-black mr-3"></div>
+                      <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white mr-3"></div>
                       Joining the waitlist...
                     </div>
                   ) : (
